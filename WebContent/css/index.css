@@ -1,0 +1,23 @@
+/* CSS Document */
+div.clip-container{width:200px; float:left;}
+div.clip-box{
+	width:100%;
+	position:relative;
+	overflow:hidden;
+	font-size:0;
+}
+div.clip-box img{width:100%;}
+div.selected-part{
+	position:absolute;
+	left:0;
+	top:0;
+	outline:rgba(0, 0, 0, 0.8) solid 10000px;
+	cursor:move;
+}
+div.target-image-container{
+	width:200px;
+	height:200px;
+	float:left;
+	margin-left:15px;
+}
+canvas{width:100%;}
